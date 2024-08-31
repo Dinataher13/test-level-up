@@ -5,10 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a26c4e62-aed5-456d-b3c8-c3a5141380e7" name="Changes" comment="Initial comment">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/BasicTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/Task2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CheckBoxPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DragAndDropPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FileUploadedPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FileUploaderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ResultsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/W3SchoolsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/linear/Task3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Task1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Task2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Task6Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Task7Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Task8Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Test9Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/BasicTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/linear/Task1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/Task2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/linear/Task2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,28 +47,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.BasicTests.basicTests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.BasicTests.basicTests1.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Subversion&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.BasicTests.basicTests.executor": "Run",
+    "TestNG.BasicTests.basicTests1.executor": "Run",
+    "TestNG.Task1Test.task1.executor": "Run",
+    "TestNG.Task2Test.basicTests1.executor": "Run",
+    "TestNG.Task2Test.task2.executor": "Run",
+    "TestNG.Task3Test.task3.executor": "Run",
+    "TestNG.Task3Test.task4.executor": "Run",
+    "TestNG.Task6Test.task6.executor": "Run",
+    "TestNG.Task7Test.task7.executor": "Run",
+    "TestNG.Task8Test.task8.executor": "Run",
+    "TestNG.Test9Test.task6.executor": "Run",
+    "TestNG.Test9Test.task9.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Subversion"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.BasicTests.basicTests1">
-    <configuration name="BasicTests.basicTests" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.Task2Test.task2">
+    <configuration name="Task1Test.task1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-level-up" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testPackage.*" />
+          <option name="PATTERN" value="testPackage.modular.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testPackage" />
-      <option name="MAIN_CLASS_NAME" value="testPackage.BasicTests" />
-      <option name="METHOD_NAME" value="basicTests" />
+      <option name="PACKAGE_NAME" value="testPackage.modular" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.modular.Task1Test" />
+      <option name="METHOD_NAME" value="task1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -63,17 +89,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicTests.basicTests1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task2Test.basicTests1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-level-up" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testPackage.*" />
+          <option name="PATTERN" value="testPackage.linear.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testPackage" />
-      <option name="MAIN_CLASS_NAME" value="testPackage.BasicTests" />
+      <option name="PACKAGE_NAME" value="testPackage.linear" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.linear.Task2Test" />
       <option name="METHOD_NAME" value="basicTests1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2Test.task2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-level-up" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPackage.modular.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPackage.modular" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.modular.Task2Test" />
+      <option name="METHOD_NAME" value="task2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task6Test.task6" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-level-up" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPackage.modular.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPackage.modular" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.modular.Task6Test" />
+      <option name="METHOD_NAME" value="task6" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test9Test.task9" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-level-up" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPackage.modular.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPackage.modular" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.modular.Test9Test" />
+      <option name="METHOD_NAME" value="task9" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -83,8 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BasicTests.basicTests1" />
-        <item itemvalue="TestNG.BasicTests.basicTests" />
+        <item itemvalue="TestNG.Task2Test.task2" />
+        <item itemvalue="TestNG.Task2Test.basicTests1" />
+        <item itemvalue="TestNG.Task1Test.task1" />
+        <item itemvalue="TestNG.Test9Test.task9" />
+        <item itemvalue="TestNG.Task6Test.task6" />
       </list>
     </recent_temporary>
   </component>
