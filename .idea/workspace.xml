@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a26c4e62-aed5-456d-b3c8-c3a5141380e7" name="Changes" comment="Initial comment">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CheckBoxPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DragAndDropPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FileUploadedPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FileUploaderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ResultsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/W3SchoolsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/linear/Task3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Task1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Task2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Task6Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Task7Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Task8Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Test9Test.java" afterDir="false" />
+    <list default="true" id="a26c4e62-aed5-456d-b3c8-c3a5141380e7" name="Changes" comment="POM standard">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Task3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Task4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Task5Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/BasicTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/linear/Task1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testPackage/Task2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPackage/linear/Task2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ResultsPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +46,9 @@
     "TestNG.Task2Test.task2.executor": "Run",
     "TestNG.Task3Test.task3.executor": "Run",
     "TestNG.Task3Test.task4.executor": "Run",
+    "TestNG.Task4Test.task4.executor": "Run",
+    "TestNG.Task5Test.task4.executor": "Run",
+    "TestNG.Task5Test.task5.executor": "Run",
     "TestNG.Task6Test.task6.executor": "Run",
     "TestNG.Task7Test.task7.executor": "Run",
     "TestNG.Task8Test.task8.executor": "Run",
@@ -70,43 +62,7 @@
     "settings.editor.selected.configurable": "vcs.Subversion"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Task2Test.task2">
-    <configuration name="Task1Test.task1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="test-level-up" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testPackage.modular.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testPackage.modular" />
-      <option name="MAIN_CLASS_NAME" value="testPackage.modular.Task1Test" />
-      <option name="METHOD_NAME" value="task1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2Test.basicTests1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="test-level-up" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testPackage.linear.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testPackage.linear" />
-      <option name="MAIN_CLASS_NAME" value="testPackage.linear.Task2Test" />
-      <option name="METHOD_NAME" value="basicTests1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Task5Test.task5">
     <configuration name="Task2Test.task2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-level-up" />
       <extension name="coverage">
@@ -125,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task6Test.task6" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task3Test.task3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-level-up" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +90,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testPackage.modular" />
-      <option name="MAIN_CLASS_NAME" value="testPackage.modular.Task6Test" />
-      <option name="METHOD_NAME" value="task6" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.modular.Task3Test" />
+      <option name="METHOD_NAME" value="task3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test9Test.task9" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task4Test.task4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-level-up" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +108,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testPackage.modular" />
-      <option name="MAIN_CLASS_NAME" value="testPackage.modular.Test9Test" />
-      <option name="METHOD_NAME" value="task9" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.modular.Task4Test" />
+      <option name="METHOD_NAME" value="task4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task5Test.task4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-level-up" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPackage.modular.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPackage.modular" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.modular.Task5Test" />
+      <option name="METHOD_NAME" value="task4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task5Test.task5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-level-up" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testPackage.modular.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testPackage.modular" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.modular.Task5Test" />
+      <option name="METHOD_NAME" value="task5" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -163,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Task5Test.task5" />
+        <item itemvalue="TestNG.Task5Test.task4" />
+        <item itemvalue="TestNG.Task4Test.task4" />
+        <item itemvalue="TestNG.Task3Test.task3" />
         <item itemvalue="TestNG.Task2Test.task2" />
-        <item itemvalue="TestNG.Task2Test.basicTests1" />
-        <item itemvalue="TestNG.Task1Test.task1" />
-        <item itemvalue="TestNG.Test9Test.task9" />
-        <item itemvalue="TestNG.Task6Test.task6" />
       </list>
     </recent_temporary>
   </component>
@@ -191,11 +183,20 @@
       <option name="project" value="LOCAL" />
       <updated>1723827980100</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="POM standard">
+      <option name="closed" value="true" />
+      <created>1725082198149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725082198149</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial comment" />
+    <MESSAGE value="POM standard" />
+    <option name="LAST_COMMIT_MESSAGE" value="POM standard" />
   </component>
 </project>
