@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a26c4e62-aed5-456d-b3c8-c3a5141380e7" name="Changes" comment="POM standard">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Task3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Task4Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/modular/Task5Test.java" afterDir="false" />
+    <list default="true" id="a26c4e62-aed5-456d-b3c8-c3a5141380e7" name="Changes" comment="Task4 &amp; 5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fluentPages/HomePageFluent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fluentPages/ResultPageFluent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/Fluent/Task1Fluent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/Fluent/Task2Fluent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.BasicTests.basicTests.executor": "Run",
     "TestNG.BasicTests.basicTests1.executor": "Run",
+    "TestNG.Task1Fluent.checkPageTitle.executor": "Run",
     "TestNG.Task1Test.task1.executor": "Run",
+    "TestNG.Task2Fluent.checkLogoDisplay.executor": "Run",
     "TestNG.Task2Test.basicTests1.executor": "Run",
     "TestNG.Task2Test.task2.executor": "Run",
     "TestNG.Task3Test.task3.executor": "Run",
@@ -62,18 +64,18 @@
     "settings.editor.selected.configurable": "vcs.Subversion"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Task5Test.task5">
-    <configuration name="Task2Test.task2" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Task2Fluent.checkLogoDisplay">
+    <configuration name="Task1Fluent.checkPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-level-up" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testPackage.modular.*" />
+          <option name="PATTERN" value="testPackage.Fluent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testPackage.modular" />
-      <option name="MAIN_CLASS_NAME" value="testPackage.modular.Task2Test" />
-      <option name="METHOD_NAME" value="task2" />
+      <option name="PACKAGE_NAME" value="testPackage.Fluent" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.Fluent.Task1Fluent" />
+      <option name="METHOD_NAME" value="checkPageTitle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,17 +83,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3Test.task3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task2Fluent.checkLogoDisplay" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-level-up" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testPackage.modular.*" />
+          <option name="PATTERN" value="testPackage.Fluent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testPackage.modular" />
-      <option name="MAIN_CLASS_NAME" value="testPackage.modular.Task3Test" />
-      <option name="METHOD_NAME" value="task3" />
+      <option name="PACKAGE_NAME" value="testPackage.Fluent" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.Fluent.Task2Fluent" />
+      <option name="METHOD_NAME" value="checkLogoDisplay" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Task2Fluent.checkLogoDisplay" />
+        <item itemvalue="TestNG.Task1Fluent.checkPageTitle" />
         <item itemvalue="TestNG.Task5Test.task5" />
         <item itemvalue="TestNG.Task5Test.task4" />
         <item itemvalue="TestNG.Task4Test.task4" />
-        <item itemvalue="TestNG.Task3Test.task3" />
-        <item itemvalue="TestNG.Task2Test.task2" />
       </list>
     </recent_temporary>
   </component>
@@ -191,12 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1725082198149</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Task4 &amp; 5">
+      <option name="closed" value="true" />
+      <created>1725362985541</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725362985541</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial comment" />
     <MESSAGE value="POM standard" />
-    <option name="LAST_COMMIT_MESSAGE" value="POM standard" />
+    <MESSAGE value="Task4 &amp; 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task4 &amp; 5" />
   </component>
 </project>
