@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a26c4e62-aed5-456d-b3c8-c3a5141380e7" name="Changes" comment="Task4 &amp; 5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fluentPages/HomePageFluent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fluentPages/ResultPageFluent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/Fluent/Task1Fluent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/Fluent/Task2Fluent.java" afterDir="false" />
+    <list default="true" id="a26c4e62-aed5-456d-b3c8-c3a5141380e7" name="Changes" comment="new fluent pages&#10;Task1 &amp; Task2 fluent">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/Fluent/Task3Fluent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testPackage/Fluent/Task4Fluent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +43,10 @@
     "TestNG.Task2Fluent.checkLogoDisplay.executor": "Run",
     "TestNG.Task2Test.basicTests1.executor": "Run",
     "TestNG.Task2Test.task2.executor": "Run",
+    "TestNG.Task3Fluent.checkTheFirstResultLink.executor": "Run",
     "TestNG.Task3Test.task3.executor": "Run",
     "TestNG.Task3Test.task4.executor": "Run",
+    "TestNG.Task4Fluent.checkTheFourthResultText.executor": "Run",
     "TestNG.Task4Test.task4.executor": "Run",
     "TestNG.Task5Test.task4.executor": "Run",
     "TestNG.Task5Test.task5.executor": "Run",
@@ -64,7 +63,7 @@
     "settings.editor.selected.configurable": "vcs.Subversion"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Task2Fluent.checkLogoDisplay">
+  <component name="RunManager" selected="TestNG.Task4Fluent.checkTheFourthResultText">
     <configuration name="Task1Fluent.checkPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-level-up" />
       <extension name="coverage">
@@ -101,17 +100,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task4Test.task4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task3Fluent.checkTheFirstResultLink" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-level-up" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testPackage.modular.*" />
+          <option name="PATTERN" value="testPackage.Fluent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testPackage.modular" />
-      <option name="MAIN_CLASS_NAME" value="testPackage.modular.Task4Test" />
-      <option name="METHOD_NAME" value="task4" />
+      <option name="PACKAGE_NAME" value="testPackage.Fluent" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.Fluent.Task3Fluent" />
+      <option name="METHOD_NAME" value="checkTheFirstResultLink" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,17 +118,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task5Test.task4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task4Fluent.checkTheFourthResultText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-level-up" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testPackage.modular.*" />
+          <option name="PATTERN" value="testPackage.Fluent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testPackage.modular" />
-      <option name="MAIN_CLASS_NAME" value="testPackage.modular.Task5Test" />
-      <option name="METHOD_NAME" value="task4" />
+      <option name="PACKAGE_NAME" value="testPackage.Fluent" />
+      <option name="MAIN_CLASS_NAME" value="testPackage.Fluent.Task4Fluent" />
+      <option name="METHOD_NAME" value="checkTheFourthResultText" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -157,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Task4Fluent.checkTheFourthResultText" />
+        <item itemvalue="TestNG.Task3Fluent.checkTheFirstResultLink" />
         <item itemvalue="TestNG.Task2Fluent.checkLogoDisplay" />
         <item itemvalue="TestNG.Task1Fluent.checkPageTitle" />
         <item itemvalue="TestNG.Task5Test.task5" />
-        <item itemvalue="TestNG.Task5Test.task4" />
-        <item itemvalue="TestNG.Task4Test.task4" />
       </list>
     </recent_temporary>
   </component>
@@ -201,13 +200,22 @@
       <option name="project" value="LOCAL" />
       <updated>1725362985541</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new fluent pages&#10;Task1 &amp; Task2 fluent">
+      <option name="closed" value="true" />
+      <created>1725535069799</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725535069799</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial comment" />
     <MESSAGE value="POM standard" />
     <MESSAGE value="Task4 &amp; 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task4 &amp; 5" />
+    <MESSAGE value="new fluent pages&#10;Task1 &amp; Task2 fluent" />
+    <option name="LAST_COMMIT_MESSAGE" value="new fluent pages&#10;Task1 &amp; Task2 fluent" />
   </component>
 </project>
